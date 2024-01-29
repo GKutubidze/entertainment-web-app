@@ -1,0 +1,132 @@
+.Signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 327px;
+  width: auto;
+  min-height: 365px;
+  background-color: var(--dark-blue);
+  border-radius: 10px;
+}
+
+.formcontainer {
+  display: flex;
+  flex-direction: column;
+  /* align-items: baseline; */
+}
+
+.donthave {
+  display: flex;
+  min-width: 216px;
+  gap: 9px;
+  margin-bottom: 26px;
+}
+
+.input {
+  all: unset;
+  background-color: var(--dark-blue);
+  border-bottom: 1px solid var(--green);
+  min-width: 279px;
+  width: 100%;
+  min-height: 37px;
+  color: var(--white);
+}
+.input[type="mail"],
+.input[type="password"] {
+  padding-left: 16px;
+}
+
+.input::placeholder {
+  /* padding-left: 16px; */
+  padding-top: 18px;
+  font-size: 15px;
+  line-height: 18.9px;
+}
+.button {
+  all: unset;
+  border-radius: 6px;
+  min-width: 279px;
+  min-height: 48px;
+  background-color: var(--red);
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+.account,
+.login {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.account {
+  color: var(--white);
+}
+.login {
+  color: var(--red);
+  cursor: pointer;
+}
+.title {
+  font-size: 32px;
+  letter-spacing: -0.5px;
+  color: var(--white);
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  margin-left: 2.5rem;
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+.image {
+  margin-top: 48px;
+  margin-bottom: 58px;
+}
+.link {
+  all: unset;
+}
+
+@media screen and (min-width: 768px) {
+  .Signup {
+    width: 100%;
+  }
+  
+  .form {
+    min-width: 400px;
+    min-height: 373px;
+  }
+  .image {
+    margin-top: 80px;
+    margin-bottom: 72px;
+  }
+  .title {
+    margin-left: 52px;
+    font-size: 32px;
+  }
+  .input {
+    min-width: 336px;
+  }
+  .button {
+    min-width: 336px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .image {
+    margin-top: 78px;
+    margin-bottom: 82px;
+  }
+}
+
+.first {
+  margin-bottom: 24px;
+}

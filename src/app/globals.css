@@ -1,0 +1,41 @@
+:root {
+  --red: #FC4747;
+  --blue: #10141E;
+  --green: #5A698F;
+  --dark-blue: #161D2F;
+  --white: #FFFFFF;
+   
+
+ 
+}
+
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  
+  /* max-width: 100vw; */
+  font-family: var(--font-outfit);
+  background: var(--Dark-Blue, var(--blue));
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+ 
+}
+
+@media screen and (min-width: 1024px) {
+
+body{
+  flex-direction: row;
+  gap:36px;
+ }
+}
+
+ 
+

@@ -1,0 +1,11 @@
+.homePage{
+    overflow-x: scroll;
+    height: 100vh;
+    /* display: flex; */
+    /* flex-direction: column; */
+ }
+
+.homePage::-webkit-scrollbar {
+    display: none;
+  }
+  

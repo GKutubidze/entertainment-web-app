@@ -1,0 +1,25 @@
+.search {
+    display: flex;
+    gap: 16px;
+    margin-left:16px ;
+    margin-top: 26px;
+    
+}
+.input {
+    all: unset;
+    color: var(--white);
+    font-size: 16px;
+ }
+ .searchImage{
+    cursor: pointer;
+ }
+
+
+ @media screen and (min-width: 768px) {
+.search{
+    margin-left: 25px;
+    margin-top: 33px;
+
+}
+
+ }

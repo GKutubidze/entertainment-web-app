@@ -1,0 +1,27 @@
+.recomended {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 24px;
+    margin-left: 16px;
+    margin-top: 24px;
+}
+
+.movieContainer{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    gap: 15px;
+
+}
+
+.header {
+    color:white;
+}
+
+@media only screen and (min-width: 1024px) {
+.recomended{
+    margin-left: 0;
+}
+
+}

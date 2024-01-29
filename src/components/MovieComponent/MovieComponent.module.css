@@ -1,0 +1,88 @@
+
+.movie {
+    position: relative;
+  }
+  
+  .imageContainer {
+    position: relative;
+    width: 240px;
+    height: 140px;
+
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+    /* background: rgba(0, 0, 0, 0.6); */
+  }
+  .bookmark {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 8px;
+    top:8px;
+    background-color: #979797;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+  }
+  .bookmark:hover{
+    background-color: white;
+  }
+ 
+  
+
+  .title {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 4px;
+    font-size: 15px;
+  }
+  .category,.rating{
+    color: white;
+  }
+  
+  .year {
+    color: white;
+    font-size: 14px;
+ 
+  }
+  .movieDetail{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+
+
+  @media only screen and (min-width: 768px) {
+    .imageContainer {
+        
+        width: 470px;
+        height: 230px;
+      }
+  }
+
+  
