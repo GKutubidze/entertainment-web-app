@@ -26,8 +26,8 @@ export const MainMovie: React.FC<MovieComponentWithBookmarkProps> = (props) => {
 
   };
 
-  const imagePath = `/${thumbnail?.regular?.large}`;
-
+  const imagePath = `${thumbnail?.regular?.large.substring(1)}`;
+ 
   const categoryImage = category == "Movie" ? movieIcon : tveIcon;
 
   return (
