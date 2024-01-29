@@ -33,7 +33,7 @@ export const MovieComponent: React.FC<MovieComponentWithBookmarkProps> = (props)
   };
 
   const categoryImage = category == "Movie" ? movieIcon : tveIcon;
-  const imagePath =`/${thumbnail?.regular?.large}`
+  const imagePath =`${thumbnail?.regular?.large.substring(1)}`
   
 
 
